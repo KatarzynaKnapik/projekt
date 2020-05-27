@@ -171,3 +171,20 @@
     text-align: center;
   }
 }
+
+// PODSUMOWANIE KOSZTÓW
+
+.price-summary {
+  width: 100%;
+}
+
+.price-summary-headline {
+  width: 100%;
+  text-align: center;
+  &__text {
+    color: color(secoundary);
+    padding: .5rem 0;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+}

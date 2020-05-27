@@ -227,6 +227,22 @@
   text-align: center;
 }
 
+.price-summary {
+  width: 100%;
+}
+
+.price-summary-headline {
+  width: 100%;
+  text-align: center;
+}
+
+.price-summary-headline__text {
+  color: #bec5ca;
+  padding: .5rem 0;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+}
+
 @media screen and (min-width: 768px) {
   .form {
     width: 60%;
@@ -275,6 +291,9 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+  .price-summary-headline {
+    text-align: start;
   }
 }
 
