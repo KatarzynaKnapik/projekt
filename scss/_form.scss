@@ -64,6 +64,10 @@
     align-items: center;
   }
   &__chooses-possibility {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 1rem;
     cursor: pointer;
